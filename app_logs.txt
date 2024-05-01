@@ -1,0 +1,19 @@
+Log file created.
+[2023-10-26 00:48:34] Add Rule Executed Successfully.
+[2023-10-26 00:48:34] Adding Rule Applied Successfully.
+[2023-10-26 00:48:49] Remove Rule Successfully.
+[2023-10-26 00:49:28] Add Rule Executed Successfully.
+[2023-10-26 00:49:28] Adding Rule Applied Successfully.
+[2023-10-26 00:50:42] Add Rule Executed Successfully.
+[2023-10-26 00:50:42] Error Can't Add This Rule: Command '['sudo', 'iptables', '-I', 'FORWARD', '-i', 'ens38', '-o', 'ens33', '-p', 'tcp', '-s', '192.168.5.0/24', '-d', 'sliit.lk', '--dport', '443', '-j', 'DROP']' returned non-zero exit status 2.
+[2023-10-26 00:50:42] Adding Rule Applied Successfully.
+[2023-10-26 00:51:33] Remove Rule Successfully.
+[2023-10-26 00:51:58] Add Rule Executed Successfully.
+[2023-10-26 00:51:58] Error Can't Add This Rule: Command '['sudo', 'iptables', '-I', 'FORWARD', '-i', 'ens33', '-o', 'ens38', '-p', 'tcp', '-s', '192.168.5.0/24', '-d', 'sliit.lk', '--dport', '443', '-j', 'DROP']' returned non-zero exit status 2.
+[2023-10-26 00:51:58] Adding Rule Applied Successfully.
+[2023-10-26 00:52:54] Remove Rule Successfully.
+[2023-10-26 00:53:27] Add Rule Executed Successfully.
+[2023-10-26 00:53:27] Add Rule Executed Successfully.
+[2023-10-26 00:53:27] Adding Rule Applied Successfully.
+[2023-10-26 00:55:00] Remove Rule Successfully.
+[2023-10-26 00:55:09] Remove Rule Successfully.

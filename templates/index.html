@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AVL Firewall Solution</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/index/css/style.css">
+</head>
+<body>
+    <h1>Firewall Configuration</h1>
+    
+    <h2>Add Rule</h2>
+    <form class="form-class" action="/add_rule" method="POST">
+        <label for="traffic_route">Traffic Route:</label>
+        <select name="traffic_route" required>
+            <option value="inbound">INBOUND</option>
+            <option value="outbound">OUTBOUND</option>
+        </select><br>
+
+        <label for="rule_name">Rule Name:</label>
+        <input type="text" name="rule_name" required><br>
+        <label for="source_ip">Source IP:</label>
+        <input type="text" name="source_ip" required><br>
+        <label for="source_port">Source Port:</label>
+        <input type="text" name="source_port" required><br>
+        <label for="dest_ip">Destination IP:</label>
+        <input type="text" name="dest_ip" required><br>
+        <label for="protocol">Protocol:</label>
+        <input type="text" name="protocol" required><br>
+        <label for="dest_port">Destination Port:</label>
+        <input type="text" name="dest_port" required><br>
+        <label for="action">Action:</label>
+        <select name="action" required>
+            <option value="ACCEPT">ALLOW</option>
+            <option value="DROP">BLOCK</option>
+        </select><br>
+        <input type="submit" value="Add Rule">
+    </form>
+
+    <h2>Rules Table</h2>
+    <table class="rules-table">
+        <thead>
+        <tr>
+            <th>Rule Name</th>
+            <th>Source IP</th>
+            <th>Source Port</th>
+            <th>Protocol</th>
+            <th>Destination IP</th>
+            <th>Destination Port</th>
+            <th>Action</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for rule in firewall_rules %}
+        <tr>
+            <td>{{ rule['rule_name'] }}</td>
+            <td>{{ rule['source_ip'] }}</td>
+            <td>{{ rule['source_port'] }}</td>
+            <td>{{ rule['protocol'] }}</td>
+            <td>{{ rule['dest_ip'] }}</td>
+            <td>{{ rule['dest_port'] }}</td>
+            <td>{{ rule['action'] }}</td>
+            <td><a href="/delete_rule/{{ rule['rule_name'] }}">Delete</a></td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+   <h3>Log Message</h3>
+    {% for log in logs[-1:]|reverse %}
+     {{ log }}<br><br>
+    {% endfor %}
+
+</body>
+</html>
+
