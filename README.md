@@ -4,7 +4,7 @@ AVL-Firewall is a lightweight firewall application designed to provide essential
 
 Compatible with both Ubuntu and CentOS, setting up AVL-Firewall merely requires the addition of two interfaces.
 
-![](https://github.com/csdgurugegit/projectimages/blob/main/AVL-FW-Diagram.jpg)
+![](https://github.com/chathuracsd/Project-Images/blob/main/AVL-FW-Diagram.jpg)
 
 ## Set Environment
 
@@ -40,4 +40,4 @@ python firewall-code.py
 
 Web URL **http://localhost:3004**
 
-![](https://github.com/csdgurugegit/projectimages/blob/main/AVL-Firewall-Start.jpg)
+![](https://github.com/chathuracsd/Project-Images/blob/main/AVL-Firewall-Start.jpg)
