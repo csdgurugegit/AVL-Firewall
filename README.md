@@ -8,7 +8,7 @@ AVL-Firewall is a lightweight firewall application designed to provide essential
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,python,flask)](https://skillicons.dev)
 
-Compatible with both Ubuntu and CentOS, setting up AVL-Firewall merely requires the addition of two interfaces.
+Compatible with both **Ubuntu** and **CentOS**, setting up AVL-Firewall merely requires the addition of two interfaces.
 
 ![](https://github.com/chathuracsd/Project-Images/blob/main/AVL-FW-Diagram.jpg)
 
