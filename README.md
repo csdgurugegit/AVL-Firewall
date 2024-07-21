@@ -2,6 +2,11 @@
 
 AVL-Firewall is a lightweight firewall application designed to provide essential network security functionalities. Built with Python, it offers a simple and efficient solution for controlling traffic flow. Key features encompass a user-friendly web GUI interface, seamless integration with iptables for traffic management, and flexible rule management enabling rule addition and removal. Additionally, it automatically saves logs into files for comprehensive monitoring.
 
+**Front-End** : HTML, CSS, JS
+[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+**Back-End** : Python, Flask
+[![My Skills](https://skillicons.dev/icons?i=python,flask)](https://skillicons.dev)
+
 Compatible with both Ubuntu and CentOS, setting up AVL-Firewall merely requires the addition of two interfaces.
 
 ![](https://github.com/chathuracsd/Project-Images/blob/main/AVL-FW-Diagram.jpg)
