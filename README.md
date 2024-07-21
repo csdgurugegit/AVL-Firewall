@@ -4,6 +4,7 @@ AVL-Firewall is a lightweight firewall application designed to provide essential
 
 **Front-End** : HTML, CSS, JS
 [![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+
 **Back-End** : Python, Flask
 [![My Skills](https://skillicons.dev/icons?i=python,flask)](https://skillicons.dev)
 
